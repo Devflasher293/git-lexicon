@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        PrintHelloTobias(100);
+    }
+
+    static void PrintHelloTobias(int times)
+    {
+        for (int i = 0; i < times; i++)
+        {
+            Console.WriteLine("Hello Tobias");
+        }
+    }
+}
